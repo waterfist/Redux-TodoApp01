@@ -9,6 +9,6 @@ const rootReducer = combineReducers({
 
 // 2. 이것을 이용해서 store를 만들 것이다.(main)
 const store = createStore(rootReducer);
-
+//
 // 3. export를 한다. 그러면 다른 파일에서 사용할 수 있도록 import 가능하다.
 export default store;
