@@ -70,7 +70,7 @@ const todos = (state = initialState, action) => {
     case SWITCH_TODO:
       // 다 훑어서 payload와 완료 혹은 취소 버튼이 일치를 하면 isDone을 반대로 바꿔준다.
       // 그게 아니면 return 해주기.
-      state.map((item) => {
+      return state.map((item) => {
         // 완료 혹은 취소 버튼을 눌렀을 때, item 안의 id와 action 안에 payload가 같으면
         // isDone이 isDone이 아닌 것으로 리턴해라.
         // 완료가 완료가 아닌 것 = 완료가 취소인 것, 취소가 취소 아닌 것 = 취소가 완료인 것.
