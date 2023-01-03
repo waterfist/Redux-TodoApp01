@@ -86,3 +86,4 @@ const todos = (state = initialState, action) => {
 };
 
 // 5. reducer를 export
+export default todos;

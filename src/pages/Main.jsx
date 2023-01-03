@@ -9,8 +9,8 @@ function Main() {
     <>
       <Header />
       <Input />
-      <TodoList />
-      <TodoList />
+      <TodoList isActive={true} />
+      <TodoList isActive={false} />
       <Footer />
     </>
   );
