@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../redux/cpmponents/Header";
-import Input from "../redux/cpmponents/Input";
-import TodoList from "../redux/cpmponents/TodoList";
-import Footer from "../redux/cpmponents/Footer";
+import Header from "../redux/components/Header";
+import Input from "../redux/components/Input";
+import TodoList from "../redux/components/TodoList";
+import Footer from "../redux/components/Footer";
 
 function Main() {
   return (
