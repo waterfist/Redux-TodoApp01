@@ -1,10 +1,11 @@
 import { combineReducers, createStore } from "redux";
+import todos from "../modules/todos";
 
 // 1. rootReducer를 만들 것이다. --> reducer들을 합칠 것이다.
 // modules 밑에 있는 여러 파일을 return하는 값이다.
 // 현재 : todos
 const rootReducer = combineReducers({
-  // todos,
+  todos,
 });
 
 // 2. 이것을 이용해서 store를 만들 것이다.(main)

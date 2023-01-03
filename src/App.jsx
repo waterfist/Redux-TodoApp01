@@ -1,16 +1,8 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Main from "./pages/Main";
-import Detail from "./pages/Detail";
+import Router from "./shared/Router";
+import "./App.css";
 
-const Router = () => {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/:id" element={<Detail />} />
-      </Routes>
-    </BrowserRouter>
-  );
-};
+function App() {
+  return <Router />;
+}
 
-export default Router;
+export default App;
